@@ -5,6 +5,7 @@ const connectionString = process.env.DATABASE_URL || 'postgresql://postgres:Abhi
 
 const pool = new Pool({
   connectionString,
+  ssl: { rejectUnauthorized: false },
 });
 
 export default pool;
