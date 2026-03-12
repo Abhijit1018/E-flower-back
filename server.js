@@ -5,8 +5,8 @@ import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 
 const app = express();
-const port = 3001;
-const JWT_SECRET = 'super-secret-key-for-eflower'; // Should be in .env
+const port = process.env.PORT || 3001;
+const JWT_SECRET = process.env.JWT_SECRET || 'super-secret-key-for-eflower';
 
 app.use(cors());
 app.use(express.json());
