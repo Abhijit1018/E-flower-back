@@ -16,6 +16,16 @@ app.get('/', (req, res) => {
   res.json({ message: 'E-Flower API is running with Supabase PostgreSQL. Use /api/products, /api/categories, /api/coupons endpoints.' });
 });
 
+// DB health check (temporary debug)
+app.get('/api/health', async (req, res) => {
+  try {
+    await pool.query('SELECT 1');
+    res.json({ db: 'connected' });
+  } catch (err) {
+    res.status(500).json({ db: 'error', message: err.message });
+  }
+});
+
 // --- AUTHENTICATION ENDPOINTS ---
 
 app.post('/api/auth/register', async (req, res) => {
