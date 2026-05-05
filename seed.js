@@ -4,8 +4,8 @@ const products = [
   // ── Roses ──
   { id: 1, name: 'Classic Red Rose Bouquet', price: 899, category: 'roses', image: 'https://images.unsplash.com/photo-1490750967868-88aa4f44baee?w=400&h=400&fit=crop', rating: 4.9 },
   { id: 2, name: 'Pink Rose Romance', price: 749, category: 'roses', image: 'https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=400&h=400&fit=crop', rating: 4.7 },
-  { id: 3, name: 'White Rose Elegance', price: 849, category: 'roses', image: 'https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop', rating: 4.8 },
-  { id: 4, name: 'Yellow Rose Sunshine', price: 649, category: 'roses', image: 'https://images.unsplash.com/photo-1456926631375-92c8ce872def?w=400&h=400&fit=crop', rating: 4.6 },
+  { id: 3, name: 'White Rose Elegance', price: 849, category: 'roses', image: 'https://images.unsplash.com/photo-1519379853927-14917f8ae2d6?w=400&h=400&fit=crop', rating: 4.8 },
+  { id: 4, name: 'Yellow Rose Sunshine', price: 649, category: 'roses', image: 'https://images.unsplash.com/photo-1490750967868-88aa4f44baee?w=400&h=400&fit=crop', rating: 4.6 },
   { id: 5, name: 'Mixed Rose Carnival', price: 999, category: 'roses', image: 'https://images.unsplash.com/photo-1494697275817-48356942ad3d?w=400&h=400&fit=crop', rating: 4.8 },
   { id: 6, name: '50 Red Roses Grand Bouquet', price: 2499, category: 'roses', image: 'https://images.unsplash.com/photo-1508610048659-a06b669e3321?w=400&h=400&fit=crop', rating: 5.0 },
   { id: 7, name: 'Preserved Forever Roses', price: 1499, category: 'roses', image: 'https://images.unsplash.com/photo-1522776851755-3914469f0ca2?w=400&h=400&fit=crop', rating: 4.9 },
@@ -13,13 +13,13 @@ const products = [
 
   // ── Lilies ──
   { id: 9, name: 'White Lily Purity Bunch', price: 799, category: 'lilies', image: 'https://images.unsplash.com/photo-1519379853927-14917f8ae2d6?w=400&h=400&fit=crop', rating: 4.8 },
-  { id: 10, name: 'Stargazer Lily Arrangement', price: 999, category: 'lilies', image: 'https://images.unsplash.com/photo-1509062522245-0d694532a688?w=400&h=400&fit=crop', rating: 4.7 },
+  { id: 10, name: 'Stargazer Lily Arrangement', price: 999, category: 'lilies', image: 'https://images.unsplash.com/photo-1520763185298-1b434c919102?w=400&h=400&fit=crop', rating: 4.7 },
   { id: 11, name: 'Calla Lily Elegance', price: 1199, category: 'lilies', image: 'https://images.unsplash.com/photo-1559563362-c667ba5f5480?w=400&h=400&fit=crop', rating: 4.9 },
-  { id: 12, name: 'Asiatic Lily Mix', price: 699, category: 'lilies', image: 'https://images.unsplash.com/photo-1470509315330-8197aa048866?w=400&h=400&fit=crop', rating: 4.5 },
+  { id: 12, name: 'Asiatic Lily Mix', price: 699, category: 'lilies', image: 'https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=400&h=400&fit=crop', rating: 4.5 },
 
   // ── Orchids ──
   { id: 13, name: 'Purple Phalaenopsis Orchid', price: 1299, category: 'orchids', image: 'https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=400&h=400&fit=crop', rating: 4.9 },
-  { id: 14, name: 'White Orchid Cascade', price: 1499, category: 'orchids', image: 'https://images.unsplash.com/photo-1471018596645-132d7211158a?w=400&h=400&fit=crop', rating: 4.8 },
+  { id: 14, name: 'White Orchid Cascade', price: 1499, category: 'orchids', image: 'https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=400&h=400&fit=crop', rating: 4.8 },
   { id: 15, name: 'Blue Dendrobium Orchid', price: 1599, category: 'orchids', image: 'https://images.unsplash.com/photo-1520763185298-1b434c919102?w=400&h=400&fit=crop', rating: 4.9 },
   { id: 16, name: 'Cattleya Orchid Plant', price: 999, category: 'orchids', image: 'https://images.unsplash.com/photo-1585553616435-2dc46a3d3a60?w=400&h=400&fit=crop', rating: 4.7 },
 
@@ -32,8 +32,8 @@ const products = [
   // ── Sunflowers ──
   { id: 21, name: 'Sunflower Happiness Bunch', price: 599, category: 'sunflowers', image: 'https://images.unsplash.com/photo-1490750967868-88aa4f44baee?w=400&h=400&fit=crop', rating: 4.8 },
   { id: 22, name: 'Giant Sunflower Bouquet', price: 899, category: 'sunflowers', image: 'https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=400&h=400&fit=crop', rating: 4.7 },
-  { id: 23, name: 'Sunflower & Daisy Mix', price: 749, category: 'sunflowers', image: 'https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop', rating: 4.6 },
-  { id: 24, name: 'Mini Sunflower Pot', price: 449, category: 'sunflowers', image: 'https://images.unsplash.com/photo-1456926631375-92c8ce872def?w=400&h=400&fit=crop', rating: 4.5 },
+  { id: 23, name: 'Sunflower & Daisy Mix', price: 749, category: 'sunflowers', image: 'https://images.unsplash.com/photo-1525310555-5801a516c8e2?w=400&h=400&fit=crop', rating: 4.6 },
+  { id: 24, name: 'Mini Sunflower Pot', price: 449, category: 'sunflowers', image: 'https://images.unsplash.com/photo-1588628566587-30d8e5294025?w=400&h=400&fit=crop', rating: 4.5 },
 
   // ── Love & Romance ──
   { id: 25, name: 'Romantic Red Heart Bouquet', price: 1299, category: 'love', image: 'https://images.unsplash.com/photo-1494697275817-48356942ad3d?w=400&h=400&fit=crop', rating: 5.0 },
@@ -41,13 +41,13 @@ const products = [
   { id: 27, name: 'Eternal Love Rose Box', price: 1999, category: 'love', image: 'https://images.unsplash.com/photo-1522776851755-3914469f0ca2?w=400&h=400&fit=crop', rating: 4.9 },
   { id: 28, name: 'Romance in Pink', price: 1099, category: 'love', image: 'https://images.unsplash.com/photo-1461896837-1e5071f30f2c?w=400&h=400&fit=crop', rating: 4.8 },
   { id: 29, name: 'Couple Night Flower Pack', price: 1799, category: 'love', image: 'https://images.unsplash.com/photo-1519379853927-14917f8ae2d6?w=400&h=400&fit=crop', rating: 4.7 },
-  { id: 30, name: 'Proposal Rose Arrangement', price: 2999, category: 'love', image: 'https://images.unsplash.com/photo-1509062522245-0d694532a688?w=400&h=400&fit=crop', rating: 5.0 },
+  { id: 30, name: 'Proposal Rose Arrangement', price: 2999, category: 'love', image: 'https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=400&h=400&fit=crop', rating: 5.0 },
 
   // ── Friendship ──
   { id: 31, name: 'Friendship Day Bouquet', price: 699, category: 'friendship', image: 'https://images.unsplash.com/photo-1559563362-c667ba5f5480?w=400&h=400&fit=crop', rating: 4.7 },
-  { id: 32, name: 'Yellow Friendship Roses', price: 599, category: 'friendship', image: 'https://images.unsplash.com/photo-1470509315330-8197aa048866?w=400&h=400&fit=crop', rating: 4.6 },
+  { id: 32, name: 'Yellow Friendship Roses', price: 599, category: 'friendship', image: 'https://images.unsplash.com/photo-1490750967868-88aa4f44baee?w=400&h=400&fit=crop', rating: 4.6 },
   { id: 33, name: 'Colorful BFF Bouquet', price: 799, category: 'friendship', image: 'https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=400&h=400&fit=crop', rating: 4.8 },
-  { id: 34, name: 'Sunflower Friendship Bundle', price: 549, category: 'friendship', image: 'https://images.unsplash.com/photo-1471018596645-132d7211158a?w=400&h=400&fit=crop', rating: 4.5 },
+  { id: 34, name: 'Sunflower Friendship Bundle', price: 549, category: 'friendship', image: 'https://images.unsplash.com/photo-1525310555-5801a516c8e2?w=400&h=400&fit=crop', rating: 4.5 },
 
   // ── Wedding ──
   { id: 35, name: 'Bridal White Rose Bouquet', price: 2499, category: 'wedding', image: 'https://images.unsplash.com/photo-1520763185298-1b434c919102?w=400&h=400&fit=crop', rating: 5.0 },

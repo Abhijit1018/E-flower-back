@@ -1,0 +1,51 @@
+// Mock data for development mode
+export const mockProducts = [
+  { id: 1, name: 'Classic Red Rose Bouquet', price: 899, category: 'roses', image: 'https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=400&h=400&fit=crop', rating: 4.9 },
+  { id: 2, name: 'Pink Rose Romance', price: 749, category: 'roses', image: 'https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=400&h=400&fit=crop', rating: 4.7 },
+  { id: 3, name: 'White Rose Elegance', price: 849, category: 'roses', image: 'https://images.unsplash.com/photo-1519379853927-14917f8ae2d6?w=400&h=400&fit=crop', rating: 4.8 },
+  { id: 4, name: 'Yellow Rose Sunshine', price: 649, category: 'roses', image: 'https://images.unsplash.com/photo-1490750967868-88aa4f44baee?w=400&h=400&fit=crop', rating: 4.6 },
+  { id: 5, name: 'Mixed Rose Carnival', price: 999, category: 'roses', image: 'https://images.unsplash.com/photo-1494697275817-48356942ad3d?w=400&h=400&fit=crop', rating: 4.8 },
+  { id: 6, name: '50 Red Roses Grand Bouquet', price: 2499, category: 'roses', image: 'https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=400&h=400&fit=crop', rating: 5.0 },
+  { id: 7, name: 'White Lily Purity Bunch', price: 799, category: 'lilies', image: 'https://images.unsplash.com/photo-1519379853927-14917f8ae2d6?w=400&h=400&fit=crop', rating: 4.8 },
+  { id: 8, name: 'Stargazer Lily Arrangement', price: 999, category: 'lilies', image: 'https://images.unsplash.com/photo-1520763185298-1b434c919102?w=400&h=400&fit=crop', rating: 4.7 },
+  { id: 9, name: 'Calla Lily Elegance', price: 1199, category: 'lilies', image: 'https://images.unsplash.com/photo-1559563362-c667ba5f5480?w=400&h=400&fit=crop', rating: 4.9 },
+  { id: 10, name: 'Asiatic Lily Mix', price: 699, category: 'lilies', image: 'https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=400&h=400&fit=crop', rating: 4.5 },
+  { id: 11, name: 'Purple Phalaenopsis Orchid', price: 1299, category: 'orchids', image: 'https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=400&h=400&fit=crop', rating: 4.9 },
+  { id: 12, name: 'White Orchid Cascade', price: 1499, category: 'orchids', image: 'https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=400&h=400&fit=crop', rating: 4.8 },
+  { id: 13, name: 'Blue Dendrobium Orchid', price: 1599, category: 'orchids', image: 'https://images.unsplash.com/photo-1520763185298-1b434c919102?w=400&h=400&fit=crop', rating: 4.9 },
+  { id: 14, name: 'Cattleya Orchid Plant', price: 999, category: 'orchids', image: 'https://images.unsplash.com/photo-1585553616435-2dc46a3d3a60?w=400&h=400&fit=crop', rating: 4.7 },
+  { id: 15, name: 'Rainbow Tulip Bouquet', price: 899, category: 'tulips', image: 'https://images.unsplash.com/photo-1588628566587-30d8e5294025?w=400&h=400&fit=crop', rating: 4.8 },
+  { id: 16, name: 'Red Tulip Love Bundle', price: 749, category: 'tulips', image: 'https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?w=400&h=400&fit=crop', rating: 4.6 },
+  { id: 17, name: 'Pink Tulip Spring', price: 699, category: 'tulips', image: 'https://images.unsplash.com/photo-1525310555-5801a516c8e2?w=400&h=400&fit=crop', rating: 4.7 },
+  { id: 18, name: 'Yellow Tulip Joy', price: 649, category: 'tulips', image: 'https://images.unsplash.com/photo-1551945378-c1b01bd15eb6?w=400&h=400&fit=crop', rating: 4.5 },
+  { id: 19, name: 'Sunflower Happiness Bunch', price: 599, category: 'sunflowers', image: 'https://images.unsplash.com/photo-1490750967868-88aa4f44baee?w=400&h=400&fit=crop', rating: 4.8 },
+  { id: 20, name: 'Giant Sunflower Bouquet', price: 899, category: 'sunflowers', image: 'https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=400&h=400&fit=crop', rating: 4.7 },
+  { id: 21, name: 'Sunflower & Daisy Mix', price: 749, category: 'sunflowers', image: 'https://images.unsplash.com/photo-1525310555-5801a516c8e2?w=400&h=400&fit=crop', rating: 4.6 },
+  { id: 22, name: 'Mini Sunflower Pot', price: 449, category: 'sunflowers', image: 'https://images.unsplash.com/photo-1588628566587-30d8e5294025?w=400&h=400&fit=crop', rating: 4.5 },
+  { id: 23, name: 'Luxury Hamper', price: 1500, category: 'hampers', image: 'https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=400&h=400&fit=crop', rating: 4.9 },
+  { id: 24, name: 'Gourmet Gift Box', price: 850, category: 'hampers', image: 'https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=400&h=400&fit=crop', rating: 4.6 },
+  { id: 25, name: 'Snake Plant', price: 450, category: 'plants', image: 'https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=400&h=400&fit=crop', rating: 4.4 },
+  { id: 26, name: 'Monstera Plant', price: 550, category: 'plants', image: 'https://images.unsplash.com/photo-1463320726281-696a485928c7?w=400&h=400&fit=crop', rating: 4.7 },
+  { id: 27, name: 'Succulent Trio', price: 350, category: 'succulents', image: 'https://images.unsplash.com/photo-1519379853927-14917f8ae2d6?w=400&h=400&fit=crop', rating: 4.5 },
+  { id: 28, name: 'Aloe Vera Plant', price: 300, category: 'succulents', image: 'https://images.unsplash.com/photo-1501004016732-1b5f0b5b2e2f?w=400&h=400&fit=crop', rating: 4.6 },
+  { id: 29, name: 'Pearl Necklace', price: 1999, category: 'jewelry', image: 'https://images.unsplash.com/photo-1559563362-c667ba5f5480?w=400&h=400&fit=crop', rating: 4.9 },
+  { id: 30, name: 'Gold Bracelet', price: 1499, category: 'jewelry', image: 'https://images.unsplash.com/photo-1506808547685-e2ba962dedf0?w=400&h=400&fit=crop', rating: 4.7 },
+];
+
+export const mockCategories = [
+  { id: 1, name: 'Roses', icon: '🌹' },
+  { id: 2, name: 'Lilies', icon: '🪷' },
+  { id: 3, name: 'Orchids', icon: '🌸' },
+  { id: 4, name: 'Tulips', icon: '🌷' },
+  { id: 5, name: 'Sunflowers', icon: '🌻' },
+  { id: 6, name: 'Hampers', icon: '🎁' },
+  { id: 7, name: 'Plants', icon: '🌿' },
+  { id: 8, name: 'Succulents', icon: '🪴' },
+  { id: 9, name: 'Jewelry', icon: '💎' },
+];
+
+export const mockCoupons = [
+  { id: 1, code: 'WELCOME15', discount: 15, description: 'Welcome - 15% off' },
+  { id: 2, code: 'BIRTHDAY20', discount: 20, description: 'Birthday special - 20% off' },
+  { id: 3, code: 'FIRST10', discount: 10, description: 'First purchase - 10% off' },
+];

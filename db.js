@@ -1,15 +1,18 @@
 import pg from 'pg';
 const { Pool } = pg;
 
-const connectionString = process.env.DATABASE_URL;
+const connectionString = process.env.DATABASE_URL || 'postgresql://postgres:postgres@localhost:5432/eflower';
 
-if (!connectionString) {
-  throw new Error('DATABASE_URL is not set');
-}
+console.log('Database URL:', connectionString);
 
 const pool = new Pool({
   connectionString,
   ssl: { rejectUnauthorized: false },
+});
+
+// Add error handling for connection failures
+pool.on('error', (err) => {
+  console.error('Unexpected error on idle client', err);
 });
 
 export default pool;

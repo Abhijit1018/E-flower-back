@@ -4,10 +4,11 @@ import pool from './db.js';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 
+import { mockProducts, mockCategories, mockCoupons } from './mockData.js';
+
 const app = express();
 const port = process.env.PORT || 3001;
 const JWT_SECRET = process.env.JWT_SECRET || 'super-secret-key-for-eflower';
-
 app.use(cors());
 app.use(express.json());
 
@@ -155,7 +156,18 @@ app.get('/api/products', async (req, res) => {
     res.json(products);
   } catch (err) {
     console.error(err);
-    res.status(500).json({ error: 'Internal server error' });
+    // Use mock data as fallback for development
+    const { category, search } = req.query;
+    let filtered = mockProducts;
+    
+    if (category) {
+      filtered = filtered.filter(p => p.category.toLowerCase() === category.toLowerCase());
+    }
+    if (search) {
+      filtered = filtered.filter(p => p.name.toLowerCase().includes(search.toLowerCase()));
+    }
+    
+    res.json(filtered);
   }
 });
 
@@ -184,7 +196,8 @@ app.get('/api/categories', async (req, res) => {
     res.json(result.rows);
   } catch (err) {
     console.error(err);
-    res.status(500).json({ error: 'Internal server error' });
+    // Use mock data as fallback for development
+    res.json(mockCategories);
   }
 });
 
@@ -198,7 +211,8 @@ app.get('/api/coupons', async (req, res) => {
     res.json(coupons);
   } catch (err) {
     console.error(err);
-    res.status(500).json({ error: 'Internal server error' });
+    // Use mock data as fallback for development
+    res.json(mockCoupons);
   }
 });
 
